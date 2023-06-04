@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const db = require("./config/connection");
 
-import { ApolloServer } from "apollo-server-express";
+const { ApolloServer } = require("apollo-server-express");
 import { typeDefs, resolvers } from "./schemas";
 import { authMiddleware } from "./utils/auth";
 
