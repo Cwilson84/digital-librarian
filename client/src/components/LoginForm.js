@@ -32,7 +32,7 @@ const LoginForm = () => {
         variables: { ...userFormData },
       });
 
-      if (!response.ok) {
+      if (!res.ok) {
         throw new Error("something went wrong!");
       }
 
