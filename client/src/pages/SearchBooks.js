@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import Jumbotron from 'react-bootstrap/Jumbotron';
 import {
-  Jumbotron,
   Container,
   Col,
   Form,
