@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 import { GET_ME } from "../utils/queries";
